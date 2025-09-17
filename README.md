@@ -10,7 +10,7 @@ test: `forge test -vvvv`
 
 ## Issues
 
-If `unchecked_cheatcode_artifacts = true` not given, then `forge script script/UniswapDeployer.s.sol` will report error:
+1. If `unchecked_cheatcode_artifacts = true` not given, then `forge script script/UniswapDeployer.s.sol` will report error:
 
 ```
 Traces:
@@ -35,3 +35,5 @@ Gas used: 285411
 ## References
 
 https://www.youtube.com/watch?v=izz4xYKNZQM
+
+https://github.com/aurelien-cuvelier/local-uniswap-v2-foundry
